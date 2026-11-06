@@ -1,0 +1,1 @@
+const e={0:{text:"待派单",type:"warning"},1:{text:"处理中",type:"primary"},2:{text:"已完成",type:"success"},3:{text:"已评价",type:"info"}},s=t=>e[t]?e[t].text:"未知",n=t=>e[t]?e[t].type:"info",p=t=>t===2?"紧急":"一般";export{s as a,n as s,p as u};
